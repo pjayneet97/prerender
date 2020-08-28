@@ -1,0 +1,61 @@
+.map__container{
+    width: 100%;
+    min-height: 50vh;
+    max-height: 50vh;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.section__heading{
+    margin-bottom: .75rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #373f50;
+}
+
+// Form
+
+input[type='text'],
+input[type='email'] {
+    width: 100%;
+    padding: 10px 20px 10px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    font-weight: lighter;
+}
+input[type='text']:hover {
+    border: 1px solid #000;
+}
+input[type='email']:hover {
+    border: 1px solid #000;
+}
+textarea {
+    width: 100%;
+    padding: 10px 20px 10px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    font-weight: lighter;
+}
+textarea:hover {
+    border: 1px solid #000;
+}
+.custom__btn{
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #21325B;
+    color: #fff;
+}
+
+.cover__background{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("../../../../../assets/Images/default_product_cover_background.jpg");
+    height: 30vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: grid;
+    align-items: center;
+}
