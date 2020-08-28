@@ -168,6 +168,7 @@ setDomain(){
 
   changeDomain(domainname){
     this.domainName = domainname
+    console.log(this.domainName)
     this.setAll()
   }
 

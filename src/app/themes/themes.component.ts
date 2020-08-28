@@ -12,9 +12,11 @@ export class ThemesComponent implements OnInit {
   theme_id=0;
 
   constructor(
-    private _themeService: ThemesManagerService,
+    public _themeService: ThemesManagerService,
     public route:ActivatedRoute
-  ) { }
+  ) { 
+    console.log("hello")
+  }
 
   ngOnInit(): void {
     console.log(this.route.snapshot.params["domain"])

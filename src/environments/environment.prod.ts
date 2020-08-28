@@ -1,13 +1,13 @@
 export const environment = {
   production: true,
   firebase: {
-    apiKey: "AIzaSyAJOm29FsjGtNiuj8g3m3G3S5iW5n69Oig",
-    authDomain: "webbuilder081.firebaseapp.com",
-    databaseURL: "https://webbuilder081.firebaseio.com",
-    projectId: "webbuilder081",
-    storageBucket: "webbuilder081.appspot.com",
-    messagingSenderId: "142256510593",
-    appId: "1:142256510593:web:8c1a07c0c50c3f31b1df80",
-    measurementId: "G-2RR8FHSQL3"
+    apiKey: "AIzaSyByg_zmKg3VliLq41nQpKqT72C_ON3SG58",
+    authDomain: "digitizze.firebaseapp.com",
+    databaseURL: "https://digitizze.firebaseio.com",
+    projectId: "digitizze",
+    storageBucket: "digitizze.appspot.com",
+    messagingSenderId: "838128544194",
+    appId: "1:838128544194:web:3b424ea1e7620cd6a8ce5b",
+    measurementId: "G-5XFSS83W0Q"
   }
 };
